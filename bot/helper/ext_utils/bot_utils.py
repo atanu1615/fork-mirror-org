@@ -118,13 +118,8 @@ def get_progress_bar_string(status):
     return p_str
     
     
-    cPart = p % 8 - 1
-    p_str = '⬤' * cFull
-    if cPart >= 0
-        p_str += PROGRESS_INCOMPLETE[cPart]
-    p_str += '○' * (PROGRESS_MAX_SIZE - cFull)
-    p_str = f"「{p_str}」"
-    return p_str
+
+
 
 # def get_progress_bar_string(status):
 #    completed = status.processed_bytes() / 8
